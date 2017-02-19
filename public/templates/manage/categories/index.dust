@@ -1,0 +1,30 @@
+{>"layouts/manage" /}
+
+{<title}
+	分类页
+{/title}
+
+{<body}
+	<h2>种类</h2>
+	<a class="button radius small" href="/manage/categories/add">添加种类</a>
+	<table>
+		<thead>
+			<tr>
+				<th width="200">ID</th>
+				<th width="200">名字</th>
+				<th></th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			{#categories}
+			<tr>
+				<td>{._id}</td>
+				<td>{.name}</td>
+				<td><a class="button tiny center" href="/manage/categories/edit/{._id}">编辑</a></td>
+				<td><a class="button tiny alert center removeCategory" data-id="{._id}" href="#">删除</a></td>
+			</tr>
+			{/categories}
+		</tbody>
+	</table>
+{/body}

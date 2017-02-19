@@ -1,0 +1,70 @@
+{>"layouts/manage" /}
+
+{<title}
+  添加书籍
+{/title}
+
+{<body}
+    <div class="row">
+      <div class="large-12 columns">
+        <h2>添加书籍</h2>
+        <form method="post" action="/manage/books">
+          <div class="row">
+            <div class="large-12 columns">
+              <label>书名
+                <input name="title" type="text" required/>
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-12 columns">
+              <label>作者
+                <input name="author" type="text" />
+              </label>
+            </div>
+            <div class="large-12 columns">
+              <label>出版商
+                <input name="publisher" type="text" />
+              </label>
+            </div>
+             <div class="large-12 columns">
+              <label>价格
+                <input name="price" type="text" required/>
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-12 columns">
+              <label>种类
+                <select name="category">
+                {#categories}
+                  <option value="{.name}">{.name}</option>
+                {/categories}
+                </select>
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-12 columns">
+              <label>描述
+                <textarea name="description"></textarea>
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-12 columns">
+                <label>封面链接
+                  <input name="cover" type="text" />
+                </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-12 columns">
+              <input type="submit" class="button" value="提交">
+            </div>
+          </div>
+          <input type="hidden" name="_csrf" value="{_csrf}">
+          </form>
+      </div>  
+    </div>
+{/body}

@@ -1,0 +1,30 @@
+{>"layouts/master" /}
+
+{<title}
+	详情页
+{/title}
+
+{<body}
+	<div class="row">
+		<div class="large-4 medium-4 small-12 columns">
+			<img src="/img/{book.cover}">
+		</div>
+
+		<div class="large-8 medium-8 small-12 columns">
+			<ul class="pricing-table bookInfo">
+				<li class="title">{book.title}</li>
+				<li class="price">${book.price}</li>
+				<li class="description">{book.description}</li>
+				<li class="bullet-item">类别: {book.category}</li>
+				<li class="bullet-item">作者: {book.author}</li>
+				<li class="bullet-item">出版社: {book.publisher}</li>
+				<li class="cta-button">
+					<form method="post" action="/cart/{book._id}">
+						<input type="submit" class="button success large" value="加入购物车">
+						<input type="hidden" name="_csrf" value="{_csrf}">
+					</form>
+				</li>
+			</ul>
+		</div>
+	</div>
+{/body}

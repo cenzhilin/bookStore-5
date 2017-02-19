@@ -1,0 +1,11 @@
+{>"layouts/manage" /}
+
+{<title}
+	后台管理系统
+{/title}
+
+{<body}
+	<h2 class="about-heading">管理</h2>
+	<div class="sepreater"></div>
+	<p class="about-des">后台管理，请添加您的商品还有书目。</p>
+{/body}
