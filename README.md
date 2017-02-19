@@ -44,3 +44,4 @@
 ## 说明
 
 *  这个项目是基于PayPal所开发的kraken.js所完成的，前端采用foundation框架，为什么没用bootstrap，个人感觉foundation还简单一点代码量较bootstrap少一点。所以就选择了foundation。
+*  这个项目我以后会更新，应为这个系统还没有添加管理员账号和用户登录注册还有用户管理功能。我以后会继续完善这个系统。
