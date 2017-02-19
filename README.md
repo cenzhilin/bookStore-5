@@ -11,21 +11,21 @@
 ## 项目实现后截图
 
 1. 主页
-![主页]（screenshot/主页.png）
+![主页](screenshot/主页.png)
 2. 关于
-![关于]（screenshot/关于.png）
+![关于](screenshot/关于.png)
 3. 购物车
-![购物车]（screenshot/购物车.png）
+![购物车](screenshot/购物车.png)
 4. 详情页
-![详情页]（screenshot/详情页.png）
+![详情页](screenshot/详情页.png)
 5. 书目列表
-![书目列表]（screenshot/书目列表.png）
+![书目列表](screenshot/书目列表.png)
 6. 添加书籍
-![添加书籍]（screenshot/添加书籍.png）
+![添加书籍](screenshot/添加书籍.png)
 7. 分类页
-![分类页]（screenshot/分类页.png）
+![分类页](screenshot/分类页.png)
 8. 添加分类
-![添加分类]（screenshot/添加分类.png）
+![添加分类](screenshot/添加分类.png)
 
 
 ## 运行环境
