@@ -10,21 +10,21 @@
 
 ## 项目实现后截图
 
-1. 主页
+1. 主页  </br>
 ![主页](screenshot/主页.png)
-2. 关于
+2. 关于  </br>
 ![关于](screenshot/关于.png)
-3. 购物车
+3. 购物车  </br>
 ![购物车](screenshot/购物车.png)
-4. 详情页
+4. 详情页  </br>
 ![详情页](screenshot/详情页.png)
-5. 书目列表
+5. 书目列表  </br>
 ![书目列表](screenshot/书目列表.png)
-6. 添加书籍
+6. 添加书籍  </br>
 ![添加书籍](screenshot/添加书籍.png)
-7. 分类页
+7. 分类页  </br>
 ![分类页](screenshot/分类页.png)
-8. 添加分类
+8. 添加分类  </br>
 ![添加分类](screenshot/添加分类.png)
 
 
